@@ -1,0 +1,112 @@
+body {
+  color: #FF6700;
+  background-color: #EBEBEB;
+}
+a:link {
+  color: #FF6700;
+
+}
+a:visited {
+  color: #004E98;
+  background-color: #eb6;
+}
+a:hover {
+  color: #FFC299;
+
+}
+a:active {
+  color: #77a2cf;
+  background-color:#77a2cf;
+}
+header {
+  color: #004E98;
+  background-color: #B4CBE4;
+  border-color: #004E98;
+}
+nav {
+  color: #FF6700;
+  border-color: #004E98;
+  background-color:#B4CBE4;
+}
+
+section li a:link,section li a:visited,section li a:hover,section li a:active {color:transparent;background-color:transparent;
+}
+
+section {
+  color: #223;
+  background-color: #77a2cf;
+  border-color: #004E98;
+  
+}
+section a #download {
+	color:#FF6700;
+}
+
+nav ul {
+  border-color: #99a;
+}
+nav a:link,nav a:visited {
+  color: #3A6EA5;
+  background-color: transparent;
+  border-color: #B4CBE4;
+}
+nav a:hover {
+  color:white;
+  background-color: #004E98;
+}
+nav a:active {
+  color: #004E98;
+  background-color: #004E98;
+}
+
+nav #selected a {
+  color: #eef;
+  background-color: #77a2cf;;
+}
+
+
+
+section img {
+  border-color: #ba9;
+  outline-color: #dcb;
+}
+#imagegallery a {
+  background-color: transparent;
+}
+
+
+th {
+  color: #edc;
+  background-color: #455;
+}
+td {
+  color: #223;
+ }
+
+tbody tr:nth-of-type(odd) {
+background: #ddd;
+}
+
+tbody tr:nth-of-type(even) {
+background: #f3f3f3;
+}
+
+tbody tr:hover {
+            cursor:pointer;
+            background-color: gray;
+            color: white;
+}
+
+section h2 {
+  	background: url(../images/open.png) no-repeat 0% 10%;
+  	padding-left: 20px;
+  	cursor: pointer;
+}
+
+div #about {
+	color:#3A6EA5;
+}
+
+.close {
+  	background-image: url(../images/close.png);
+}
